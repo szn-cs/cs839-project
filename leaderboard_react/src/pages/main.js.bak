@@ -1,0 +1,11 @@
+import Leaderboard from 'react-native-leaderboard';
+
+function HomePage() {
+  return (
+      <Leaderboard 
+        data={this.state.data} 
+        sortBy='highScore' 
+        labelBy='userName'/>)
+}
+
+export default HomePage
