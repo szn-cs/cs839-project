@@ -19,3 +19,5 @@ jobs:
           channelId: live
           projectId: crypto-board-project
           # entrypoint: ./leaderboard_react
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
