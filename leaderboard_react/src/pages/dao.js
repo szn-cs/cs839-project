@@ -53,3 +53,9 @@ function getUsers(){}
 function getBalances(){}
 
 
+export default function dao() {
+  return <>{/* nothing */}</>;
+}
+
+
+
