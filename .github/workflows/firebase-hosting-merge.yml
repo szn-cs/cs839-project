@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: cd leaderboard_react && npm ci && npm run build && mv .next ../
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYPTO_BOARD_PROJECT }}'
           channelId: live
           projectId: crypto-board-project
-          entrypoint: ./leaderboard_react
+          # entrypoint: ./leaderboard_react
