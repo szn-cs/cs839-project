@@ -15,4 +15,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYPTO_BOARD_PROJECT }}'
           projectId: crypto-board-project
-          entrypoint: /leaderboard_react
+          entrypoint: ./leaderboard_react
