@@ -18,6 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYPTO_BOARD_PROJECT }}'
           channelId: live
           projectId: crypto-board-project
-          # entrypoint: ./leaderboard_react
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
