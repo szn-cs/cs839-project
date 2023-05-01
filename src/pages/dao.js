@@ -565,9 +565,16 @@ export async function updateLeaderboardData() {
 
 export function getSampleUsers() {
     let leaders = [
-        { name: 'Matthew', message: "I'm the best", value: 25 },
-        { name: 'Joe', message: "I'm the best", value: 55 },
-        { name: 'Nakamoto', message: "I'm the best", value: 1 },
+        { name: 'Sarah', message: "Subscribe to my YouTube", value: 300 },
+        { name: 'Joe', message: "Hi mom!!!!", value: 290 },
+        { name: 'William', message: "I'm the best", value: 400 },
+        { name: 'Daniel', message: "I'm number one", value: 101 },
+        { name: 'Gabriel', message: "Vote for me", value: 111 },
+        { name: 'Safi', message: "https://github.com/gabrielgozum/erc20dao/blob/main/src/Leaderboard.sol", value: 222 },
+        { name: 'Rachel', message: "https://xkcd.com/2267/", value: 302 },
+        { name: 'Michael', message: "https://chat.openai.com/", value: 56 },
+        { name: 'Emily', message: "https://twitter.com/Calvinn_Hobbes/", value: 99 },
+        { name: 'Matthew', message: "https://github.com/szn-cs/uw-cs839-project", value: 17 },
     ]
     return leaders
 }
