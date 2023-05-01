@@ -46,7 +46,7 @@ export async function updateLeaderboardData(){
 export function getSampleUsers(){
     let leaders = [{"name":"Matthew","message":"I'm the best", "value":25},
     {"name":"Joe","message":"I'm the best","value":55},
-    {"name":"Bob","message":"I'm the best","value":1}]
+    {"name":"Nakamoto","message":"I'm the best","value":1}]
     return leaders
 }
 function getUsers(){}
