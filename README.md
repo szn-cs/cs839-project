@@ -1,3 +1,13 @@
+# Get ABI of contract 
+<https://snowtrace.io/address/0x3ed646b9878a20a8de8bbd350b42af3b15b7ebd1>
+
+
+
+-------------------------
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

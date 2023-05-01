@@ -31,6 +31,7 @@ export default function MyApp() {
     //        {"name":"Bob","message":"I'm the best","value":1}]
 
     let leaders = getSampleUsers()
+    updateLeaderboardData()
     leaders.sort(compareByValue)
     return (
         <div>
