@@ -65,13 +65,7 @@ export default function MyApp() {
     }, [isSending]) // update the callback if the state changes
 
     const compareByValue = (a, b) => {
-        if (a.value > b.value) {
-            return 1
-        } else if (a.value < b.value) {
-            return -1
-        } else {
-            return 0
-        }
+        return b.value - a.value
     }
 
     return (
@@ -154,10 +148,7 @@ export default function MyApp() {
                                         gutterBottom
                                         sx={{
                                             textAlign: 'left',
-                                            fontFamily: [
-                                                'Helvetica Neue',
-                                                'Segoe UI Symbol',
-                                            ],
+                                            fontFamily: ['emoji'],
                                             fontWeight: 'bold',
                                         }}
                                     >
