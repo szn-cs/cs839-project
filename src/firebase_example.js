@@ -7,7 +7,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCqlWGbIbIkYxRl7SeJQWcUtIT53kSpPhA",
+  apiKey: "SAMPLE_pPaSyCqlWGbIbaSyCIkYQWcUIpxRl7SIpPheJQWcUtIT53kSaSyCqlWGbIpPhA",
   authDomain: "crypto-board-project.firebaseapp.com",
   projectId: "crypto-board-project",
   storageBucket: "crypto-board-project.appspot.com",
